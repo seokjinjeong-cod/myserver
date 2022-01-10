@@ -1,0 +1,41 @@
+{
+	"result": true,
+	"data": {
+		"contents": [{
+				"id": "10012",
+				"city": "Seoul",
+				"country": "South Korea",
+				"date": ""
+			},
+			{
+				"id": "10013",
+				"city": "Tokyo",
+				"country": "Japan",
+				"date": ""
+
+			},
+			{
+				"id": "10014",
+				"city": "London",
+				"country": "England",
+				"date": ""
+			},
+			{
+				"id": "10015",
+				"city": "Ljubljana",
+				"country": "Slovenia",
+				"date": ""
+			},
+			{
+				"id": "10016",
+				"city": "Reykjavik",
+				"country": "Iceland",
+				"date": "2022-01-06"
+			}
+		],
+		"pagination": {
+			"page": 1,
+			"totalCount": 100
+		}
+	}
+}

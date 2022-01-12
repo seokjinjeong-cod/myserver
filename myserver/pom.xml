@@ -180,12 +180,9 @@
 			<version>2.9.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
-<!-- <dependency>
-    <groupId>com.zaxxer</groupId>
-    <artifactId>HikariCP</artifactId>
-    <version>5.0.0</version>
-</dependency> -->
-		
+		<!-- <dependency> <groupId>com.zaxxer</groupId> <artifactId>HikariCP</artifactId> 
+			<version>5.0.0</version> </dependency> -->
+
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -248,6 +245,12 @@
 			<groupId>org.bgee.log4jdbc-log4j2</groupId>
 			<artifactId>log4jdbc-log4j2-jdbc4</artifactId>
 			<version>1.16</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>6.4.0</version>
 		</dependency>
 
 	</dependencies>

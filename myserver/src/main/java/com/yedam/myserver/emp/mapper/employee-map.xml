@@ -2,7 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yedam.myserver.emp.mapper.EmployeeMapper"> 
 
-<select id="findEmployees"  resultType="employee">
+<select id="findEmployeesMap" resultType="map">
+	select *
+	from employees
+	order by employee_id  
+</select>
+
+<select id="findEmployees" resultType="employee">
 	select employee_id, first_name, last_name, job_id
 	from employees
 	order by employee_id  

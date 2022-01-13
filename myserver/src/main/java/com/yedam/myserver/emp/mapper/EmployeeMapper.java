@@ -1,6 +1,7 @@
 package com.yedam.myserver.emp.mapper;
 
 import java.util.List;
+import java.util.Map;
 
 import com.yedam.myserver.emp.vo.Departments;
 import com.yedam.myserver.emp.vo.Employee;
@@ -8,6 +9,7 @@ import com.yedam.myserver.emp.vo.Jobs;
 
 public interface EmployeeMapper {
 
+	List<Map<String, Object>> findEmployeesMap();
 	List<Employee> findEmployees();		//사원검색
 	int persist(Employee emp);			//사원등록
 	int merge(Employee emp);			//사원수정
